@@ -1,0 +1,141 @@
+body {
+  margin:auto;
+  font-family: helvetica;
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
+.header {
+  background-color: #11709F;
+  color: #fff;
+  height: 90px;
+}
+
+.header-logo {
+  font-size: 35px;
+  float: left;
+  padding: 25px 40px;
+}
+
+.header-list li {
+  float: left;
+  font-size: 16px;
+  padding: 35px 20px;
+}
+
+.sub-main {
+  padding:100px 80px;
+  text-align: center;
+  margin-left: 0 auto;
+  margin-right: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.benefits {
+  height:500px;
+  margin-top:20px;
+}
+
+.benefit {
+  float: left;
+  width: 32%;
+}
+
+.benefit-pict {
+  width:150px;
+  height:150px;
+}
+
+.text-contents {
+  width: 80%;
+  display: inline-block;
+  margin-top: 15px;
+  font-size: 15px;
+  color:black;
+  text-align: center;
+}
+
+.heading {
+  padding-top: 80px;
+  padding-bottom: 50px;
+}
+
+.heading h2 {
+  font-weight: bold;
+}
+
+.heading h3 {
+  font-weight: normal;
+}
+
+
+.footer-container {
+  max-width: 1170px;
+  width: 100%;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+footer {
+  height: 47px;
+  width: 100%;
+  background-color: rgba(34, 49, 52, 1);
+  font-size:12px;
+}
+
+.footer-logo {
+  width: 150px;
+}
+
+.footer-left {
+  float: left;
+}
+
+.footer-right {
+  float: right;
+  background-color: rgba(34, 49, 52, 1);
+  transition: all 0.5s;
+}
+
+.footer-right:hover {
+  background-color: rgba(228, 101, 43, 1);
+}
+
+.footer-right a {
+  line-height: 47px;
+  padding: 0 10px;
+  color: white;
+}
+
+.lesson {
+  float: left;
+  width: 25%;
+}
+
+.lesson-icon {
+  position: relative;
+}
+
+.lesson-icon p {
+  width: 80%;
+  display: inline-block;
+  margin-top: 15px;
+  font-size: 15px;
+  color:black;
+  text-align: center;
+}
+
+.lesson-wrapper {
+  height: 500px;
+  padding-bottom: 80px;
+  background-color: #f7f7f7;
+  text-align: center;
+}
