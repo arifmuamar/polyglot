@@ -1,0 +1,17 @@
+/* tablet */
+@media all and (max-width: 1000px) {
+  .benefit {
+    width: 50%;
+    margin-bottom: 50px;
+}
+
+/* smartphone */
+@media all and (max-width: 670px) {
+  .benefit {
+    width: 100%;
+  }
+  footer {
+    text-align: center;
+  }
+
+}
